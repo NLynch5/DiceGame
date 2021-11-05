@@ -1,19 +1,25 @@
+// dice
+let dice1 = document.getElementById("dice1");
+let dice2 = document.getElementById("dice2");
+let dice3 = document.getElementById("dice3");
+let dice4 = document.getElementById("dice4");
+let dice5 = document.getElementById("dice5");
+let dice6 = document.getElementById("dice6");
+
 //page
 let score = document.getElementById ("score");
 let diceImage = document.getElementById ("diceImage");
 let button = document.getElementById("button");
 
-//game
-let score = 0
-let count = 0
-let win = 0
 
-
-button.addEventListener ("click", () => {
-    let num = Math.ceil(Math.random()*6)
-        if (num === 1){
-        $("#diceImage").attr("src",`Images/dice1.svg`);
-    } else if (num === 2){
+function rollDice (){
+        let roll = Math.floor(Math.random() * 6) + 1;
+        score.innerHTML = roll;     
+}
+button.addEventListener ("click", () => { 
+        if (score === 1){
+        $("#diceImage").attr(src=Images/dice1.svg);
+    } else if (score === 2){
         $("diceImage").attr("src",`Images/dice2.svg`);
     } else if (score === 3){
         $("diceImage").attr("src", `Images/dice3.svg`);
