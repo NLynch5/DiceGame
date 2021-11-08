@@ -26,15 +26,15 @@ button.addEventListener("click", () => {
    if (num === 1) {
         diceImage.src = "Images/dice1.svg";
     } else if (num === 2){
-        diceImage.style.transform ("src",`Images/dice2.svg`);
+        diceImage.src = "Images/dice2.svg";
     } else if (num === 3){
-        diceImage.attr("src",`Images/dice3.svg`);
+        diceImage.src = "Images/dice3.svg";
     } else if (num === 4){
-        diceImage.attr("src",`Images/dice4.svg`);
+        diceImage.src = "Images/dice4.svg";
     } else if (num === 5){
-        diceImage.attr("src",`Images/dice5.svg`);
+        diceImage.src = "Images/dice5.svg";
     } else if (num === 6){
-        diceImage.attr(src=Images/dice6.svg);
+        diceImage.src = "Images/dice6.svg";
     }
 })
 
