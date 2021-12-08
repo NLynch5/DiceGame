@@ -1,59 +1,59 @@
 body {
-    background-color:darkseagreen;
-    margin: 0px;
-    padding: 0px;
+  background-color: darkseagreen;
+  margin: 0px;
+  padding: 0px;
 }
 
 header {
-    text-align: left;
-    font-size: 3vw;
-    padding: 3vw;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  font-size: 2vw;
+  padding: 1vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 #container {
-    width:700px;
-    height: 700px;
-    margin: 50px; 
-    border: 300px;
-    border-color: indigo;
-    border-style: dotted;
-    border-width: 5px;
+  width: 500px;
+  height: 700px;
+  margin: 20px;
 }
 
 h1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 4vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 4vw;
 }
 
 h2 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2.5vw;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.5vw;
 }
 
 #topBox {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #bottomBox {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #diceImage {
-    padding: 4vw;
-    height: 150px;
-    width: 150px; 
+  padding: 4vw;
+  height: 150px;
+  width: 150px;
 }
 
-#button {
-    width: 80px;
-    height:50px;
-    font-size: 2vw;
-    background-color: hotpink;
-    cursor: pointer;
-    margin: 4vw;
+#button,
+#playBtn {
+  width: 80px;
+  height: 50px;
+  font-size: 2vw;
+  background-color: hotpink;
+  cursor: pointer;
+  margin: 4vw;
 }

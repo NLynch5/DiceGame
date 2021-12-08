@@ -8,24 +8,22 @@
     <title>NL Dice Game</title>
 </head>
 <body>
-<header>Begin the game when 'roll' is clicked</header>
+<header>Begin the game when 'roll' is clicked, 25 points to win!</header>
 <div id=container>
     <div id=topBox>
         <h1 id=name>Player 1</h1>
-        <h1 id=name>Winning Score: 25</h1>
-        <p>Your score:<h1 id="roll">0</h1></p>
+        <h1 id=name>Your Total:</h1><h1 id=total> 0 </h1>
+        <p>You rolled:
+            <h1 id=score>0</h1>
+        </p>
     </div>
+   
     <div id=bottomBox>
-        <img id=diceImage src=" Images/dice1.svg" alt="rolled dice side">
+         <img id=diceImage src=" Images/dice1.svg" alt="rolled dice side">
         <button id=button >roll</button>
+        <button id=playBtn>Play again</button>
     </div>
 </div>
-<!---<img id=dice1 src="Images/dice1.svg" alt="rolled dice 1">
-<img id=dice2 src="Images/dice2.svg" alt="rolled dice 2">
-<img id=dice3 src="Images/dice3.svg" alt="rolled dice 3">
-<img id=dice4 src="Images/dice4.svg" alt="rolled dice 4">
-<img id=dice5 src="Images/dice5.svg" alt="rolled dice 5">
-<img id=dice6 src="Images/dice6.svg" alt="rolled dice 6">--->
 
     <script src = "app.js" ></script>
 </body>
