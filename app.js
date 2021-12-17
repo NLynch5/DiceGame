@@ -7,6 +7,8 @@ let total = document.getElementById("total");
 let playBtn = document.getElementById("playBtn");
 let count = 0;
 
+diceImage.src = "Images/dice.png";
+
 //button function to create random number and change image
 button.addEventListener("click", () => {
   let num = Math.floor(Math.random() * 6) + 1;
@@ -44,4 +46,6 @@ button.addEventListener("click", () => {
 
 playBtn.addEventListener("click", () => {
   count = 0;
+  diceImage.src = "Images/dice.png";
+  score.textContent = `0`;
 });
